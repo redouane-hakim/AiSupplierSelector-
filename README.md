@@ -2,7 +2,7 @@
 
 Ce package contient trois livrables :
 
-1. `notebooks/supplier_selection_workflow.ipynb`
+1. `notebooks/supplier_selection_notebook.ipynb`
    - notebook de préparation des données, fusion, nettoyage, création des features, entraînement, évaluation et export du meilleur modèle.
 2. `docs/datasets_links.md`
    - liens et notes sur les datasets recommandés.
