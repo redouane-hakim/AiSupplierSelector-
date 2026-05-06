@@ -27,6 +27,6 @@ Ensuite ouvrir `http://127.0.0.1:8000`.
 
 ## Remarque importante
 
-Le modèle fourni dans `app/backend/artifacts/demo_supplier_model.joblib` est un **modèle de démonstration** entraîné sur des données synthétiques réalistes pour rendre l'application directement utilisable.
+Le modèle fourni dans `app/backend/artifacts/best_model.joblib` est un **modèle** entraîné sur les données des datasets réalistes pour rendre l'application directement utilisable.
 
-Pour le projet final académique, il faut **remplacer ce modèle** par celui exporté par le notebook après exécution sur les datasets publics massifs + vos KPI fournisseurs internes.
+Pour votre projet , il faut **remplacer ce modèle** par celui exporté par le notebook après exécution sur vos datasets ou des datasets publics  + vos KPI fournisseurs internes.
