@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Supplier Recommender</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="header-flex">
+      <div>
+        <h1>AI de sélection des fournisseurs</h1>
+      </div>
+      <button id="newPredictionBtn" class="ghost">Nouveau prediction</button>
+    </header>
+    <main id="inputSection">
+      <section class="card">
+        <div class="section-collapse">
+          <div class="section-collapse-head" id="needToggle">
+            <h2>Besoin d'achat</h2>
+            <span id="needArrow" class="collapse-arrow">▼</span>
+          </div>
+           <div class="weight-card collapse-content ">
+            <h2>Poids métier</h2>
+            <p class="hint">Les poids changent automatiquement selon le secteur.</p>
+            <div id="weightsBox" class="weights-box"></div>
+          </div>
+          <div id="needDetails" class="collapse-content open">
+            <div>
+              <div class="form-grid">
+                <label>Secteur
+            <select id="sector">
+              <option value="global">Global</option>
+              <option value="automobile">Automobile</option>
+              <option value="electronique">Électronique / Tech</option>
+            </select>
+          </label>
+          <label>Catégorie produit
+            <input id="product_category" value="Composants industriels" />
+          </label>
+          <label>Modèle demandé
+            <input id="required_model" value="Moteur brushless 24V" />
+          </label>
+          <label>Coût produit cible (unité)
+            <input id="product_cost_target" type="number" value="120" />
+          </label>
+          <label>Budget total
+            <input id="budget" type="number" value="150000" />
+          </label>
+          <label>Prix de vente prévu
+            <input id="selling_price" type="number" value="195000" />
+          </label>
+          <label>Quantité
+            <input id="quantity" type="number" value="1000" />
+          </label>
+        </div>
+        </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <h2>Fournisseurs candidats</h2>
+        <button id="addSupplierBtn" class="ghost">+ Ajouter un fournisseur</button>
+      </div>
+      <div id="suppliersContainer"></div>
+      <div class="actions">
+        <button id="predictBtn">Lancer la recommandation</button>
+      </div>
+    </section>
+    </main>
+
+    <section id="resultsSection" class="hidden">
+      <div class="card">
+        <h2>Fournisseur recommandé</h2>
+        <div id="recommendationBox" class="recommendation-box">Aucun résultat pour l'instant.</div>
+      </div>
+      <section class="grid two charts">
+        <div class="card">
+          <h2>Comparaison des scores finaux</h2>
+          <canvas id="scoreChart"></canvas>
+        </div>
+        <div class="card">
+          <h2>Profil multicritère de tous les fournisseurs</h2>
+          <canvas id="radarChart"></canvas>
+        </div>
+      </section>
+      <div class="card">
+        <h2>Classement final</h2>
+        <div id="resultsTable"></div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

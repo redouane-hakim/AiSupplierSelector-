@@ -1,0 +1,11 @@
+supplier_id,supplier_name,supplier_country,quality_score,delivery_score,flexibility_score,innovation_score,esg_score,risk_score,otif_simulated,avg_lead_time_days,rnd_ratio,scope3_score,bid_price,price_ratio,predicted_score,rank,recommendation_reason
+GSUP_00416,Fournisseur_F06,IT,86.92,82.81,68.07,48.01,64.43,31.17,0.7835,8.8,0.1121,42.0,600043.0,1.200086,0.5759804570048526,1,qualité excellente (87/100) · livraison fiable (83/100)
+GSUP_00529,Fournisseur_H08,PL,85.61,81.81,80.1,64.89,53.07,49.97,0.7319,7.6,0.1493,43.5,641780.0,1.28356,0.5151461104907523,2,qualité excellente (86/100) · livraison fiable (82/100)
+GSUP_00482,Fournisseur_C03,FR,68.82,74.91,69.13,54.28,55.55,44.1,0.7343,8.9,0.1093,46.3,602246.0,1.204492,0.5066826481932918,3,profil équilibré
+GSUP_00116,Fournisseur_U21,IT,87.71,89.39,80.88,48.05,61.42,33.51,0.7801,13.9,0.1808,52.1,569178.0,1.138356,0.49859256682874026,4,qualité excellente (88/100) · livraison fiable (89/100)
+GSUP_00218,Fournisseur_G07,PL,85.19,84.17,66.85,40.15,47.77,33.22,0.8013,7.7,0.1308,31.0,631372.0,1.262744,0.4769988042926276,5,qualité excellente (85/100) · livraison fiable (84/100)
+GSUP_00150,Fournisseur_N14,IT,89.07,91.79,82.52,39.14,67.11,13.89,0.8767,5.0,0.079,59.3,643363.0,1.286726,0.4325740713689556,6,qualité excellente (89/100) · livraison fiable (92/100)
+GSUP_00486,Fournisseur_T20,DE,83.85,84.06,83.72,54.48,47.27,31.82,0.7381,7.6,0.1174,36.1,494789.0,0.989578,0.4302947177144514,7,qualité excellente (84/100) · livraison fiable (84/100)
+GSUP_00359,Fournisseur_V22,DE,86.66,79.72,80.24,50.05,54.01,32.55,0.7052,7.3,0.101,42.1,588555.0,1.17711,0.4293367158433132,8,qualité excellente (87/100)
+GSUP_00328,Fournisseur_S19,ES,87.3,85.94,63.29,55.23,65.86,39.39,0.7871,7.6,0.1346,57.8,649729.0,1.299458,0.4215971333791964,9,qualité excellente (87/100) · livraison fiable (86/100)
+GSUP_00526,Fournisseur_Y25,ES,82.5,80.61,80.15,62.47,61.67,23.27,0.7291,17.4,0.1404,45.6,559551.0,1.119102,0.41624051996662703,10,qualité excellente (82/100) · livraison fiable (81/100)

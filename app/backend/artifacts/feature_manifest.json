@@ -1,0 +1,67 @@
+{
+  "features": [
+    "unit_cost",
+    "logistics_cost",
+    "lead_time_days",
+    "quality_score",
+    "delivery_score",
+    "flexibility_score",
+    "innovation_score",
+    "esg_score",
+    "historical_win_rate",
+    "historical_volume",
+    "defect_rate_ppm",
+    "risk_score",
+    "budget_fit",
+    "margin_rate",
+    "cost_advantage",
+    "quality_proxy",
+    "delivery_proxy",
+    "innovation_proxy",
+    "esg_proxy"
+  ],
+  "sector_weights": {
+    "global": {
+      "quality": 0.28,
+      "cost": 0.2,
+      "delivery": 0.17,
+      "innovation": 0.13,
+      "flexibility": 0.12,
+      "esg": 0.1
+    },
+    "automobile": {
+      "quality": 0.3,
+      "cost": 0.22,
+      "delivery": 0.2,
+      "innovation": 0.08,
+      "flexibility": 0.12,
+      "esg": 0.08
+    },
+    "electronique": {
+      "quality": 0.22,
+      "cost": 0.18,
+      "delivery": 0.15,
+      "innovation": 0.25,
+      "flexibility": 0.1,
+      "esg": 0.1
+    }
+  },
+  "selected_model": "logreg",
+  "metrics": {
+    "logreg": {
+      "roc_auc": 0.7298261982383893,
+      "avg_precision": 0.8824892681894,
+      "blended": 0.7908914262187936
+    },
+    "rf": {
+      "roc_auc": 0.7209079253412644,
+      "avg_precision": 0.8781003623531558,
+      "blended": 0.7837849001460209
+    },
+    "hgb": {
+      "roc_auc": 0.7162399670174635,
+      "avg_precision": 0.8776583680618538,
+      "blended": 0.7808073274352196
+    }
+  }
+}
